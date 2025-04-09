@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/l.png">
+	<title>Quiz on HypeLearn</title>
+	<link rel="stylesheet" type="text/css" href="quizStyle.css">
+	<script type="text/javascript" src="../script.js"></script>
+</head>
+
+<body>
+
+	<!-- NAVIGATION -->
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+				<a href="../index.html"><img src="../images/icon/logo.png" style="width: 120px;"></a>
+			</div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="../images/icon/menu.png"></div>
+			<ul id="list-switch">
+				<li><a href="jee.html"><img src="../images/courses/d1.png" class="icon">JEE</a></li>
+				<li><a href="gate.html"><img src="../images/courses/paper.png" class="icon">GATE</a></li>
+				<li><a href="computer_courses.html"><img src="../images/courses/computer.png" class="icon">Computer Courses</a>
+				</li>
+				<li><a href="computer_courses.html#data"><img src="../images/courses/data.png" class="icon">Data Structures</a>
+				</li>
+				<li><a href="computer_courses.html#algo"><img src="../images/courses/algo.png" class="icon">Algorithm</a></li>
+				<li><a href="computer_courses.html#projects"><img src="../images/courses/projects.png" class="icon">Projects</a>
+				</li>
+			</ul>
+			<div class="search" id="search-switch">
+				<input type="search" placeholder="Search" class="srch"><button id="srchbtn"><img
+						src="../images/icon/search.png"></button>
+			</div>
+		</div>
+	</header>
+
+
+	<!-- MAIN Heading of Page -->
+	<div class="title" id="title">
+		<span>Daily Quiz on HypeLearn</span>
+		<div class="shortdesc"><br>
+			<p>If you think education is expensive, try ignorance</p>
+		</div>
+		<button onclick="startquiz()">Start Now</button>
+	</div>
+
+
+	<div class="panel" id="panel">
+
+		<div class="left-side" id="left">
+			<ul>
+				<li onclick="quizt(1)">HOME</li>
+				<li onclick="quizt(2)">JEE Mains</li>
+				<li onclick="quizt(3)">JEE Advanced</li>
+				<li onclick="quizt(4)">GATE</li>
+				<li onclick="quizt(5)">C/C++</li>
+				<li onclick="quizt(6)">Java</li>
+				<li onclick="quizt(7)">Python</li>
+				<li onclick="quizt(8)">JavaScript</li>
+				<li onclick="quizt(9)">Data Structures</li>
+				<li onclick="quizt(10)">Algorithm</li>
+				<li onclick="quizt(11)">Interview Questions</li>
+			</ul>
+		</div>
+
+		<div class="right-side" id="right">
+			<div id="quiz-container">
+
+				<div id="f1">
+					<div class="quiz-frame main-frame"></div>
+				</div>
+				<!-- jee mains -->
+				<div id="f2"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLScIgeQFj53w_JhvA498XbnIWGK_lg2UclW9fqXBfaDzajIJoQ/viewform?usp=header"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- jee adv f3-->
+				<div id="f3"><iframe class="quiz-frame" src="https://forms.gle/QHB6yzx77e2zKd6o7" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- gate f4 -->
+				<div id="f4"><iframe class="quiz-frame" src="https://forms.gle/PWYvy3FFJjsXQzTe9" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- c/c++ f5 -->
+				<div id="f5"><iframe class="quiz-frame"
+						src="https://docs.google.com/forms/d/e/1FAIpQLSe1xs1-41MAbLN7KkXrJwtGdbl5ydxe_vX_nmFRjf6c0wtYkA/viewform?embedded=true"
+						frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></iframe></div>
+				<!-- java f6 -->
+				<div id="f6"><iframe class="quiz-frame" src="https://forms.gle/NeCb2v2Qz8hhQK5D6" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- python f7 -->
+				<div id="f7"><iframe class="quiz-frame" src="https://forms.gle/gtjdMKtRKWfmMAMm8" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- javascript f8 -->
+				<div id="f8"><iframe class="quiz-frame" src="https://forms.gle/vyWCQKHLUx5nAPfP8" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- ds f9 -->
+				<div id="f9"><iframe class="quiz-frame" src="https://forms.gle/Vuq5LqNggdjeJccW6" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+				<!-- algo f10 -->
+				<div id="f10"><iframe class="quiz-frame" src="https://forms.gle/eRTEoNrM4aTtMA2H7" frameborder="0"
+						marginheight="0" marginwidth="0">Loading…</iframe></div>
+
+				<div id="f11"><iframe class="quiz-frame" src="https://forms.gle/PaAM3mm81jNz4iEA9" frameborder="0"
+						marginheiclass="quiz-frame" ght="0" marginwidth="0">Loading…</iframe></div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="../script.js"></script>
+</body>
+
+</html>
